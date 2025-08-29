@@ -1,0 +1,38 @@
+# Title: Progressive Tax Simple
+# Topic Tags: progressive, tax
+
+## Task
+Income tax: 0% on first T, then R% on remainder. Calculate tax on income I.
+
+## Input
+Three integers: T (threshold), R (rate %), I (income).
+
+## Output
+Tax amount (rounded down).
+
+## Examples
+Input:
+1000
+10
+1500
+Output:
+50
+
+Input:
+500
+15
+2000
+Output:
+225
+
+Input:
+2000
+20
+1500
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

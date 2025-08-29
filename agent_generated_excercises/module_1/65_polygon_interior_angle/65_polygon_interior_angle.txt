@@ -1,0 +1,32 @@
+# Title: Polygon Interior Angle
+# Topic Tags: polygon, interior
+
+## Task
+Regular polygon with N sides. Find one interior angle in degrees.
+
+## Input
+Number of sides N (3 ≤ N ≤ 12).
+
+## Output
+Interior angle in degrees.
+
+## Examples
+Input:
+3
+Output:
+60
+
+Input:
+4
+Output:
+90
+
+Input:
+6
+Output:
+120
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

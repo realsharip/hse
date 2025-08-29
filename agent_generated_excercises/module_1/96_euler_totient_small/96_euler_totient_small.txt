@@ -1,0 +1,32 @@
+# Title: Euler Totient Small
+# Topic Tags: euler, totient
+
+## Task
+Calculate Euler's totient φ(N) for N ≤ 20.
+
+## Input
+Integer N.
+
+## Output
+φ(N).
+
+## Examples
+Input:
+12
+Output:
+4
+
+Input:
+15
+Output:
+8
+
+Input:
+20
+Output:
+8
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

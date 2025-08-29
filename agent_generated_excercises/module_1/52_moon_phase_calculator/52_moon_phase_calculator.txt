@@ -1,0 +1,32 @@
+# Title: Moon Phase Calculator
+# Topic Tags: moon, phase
+
+## Task
+Simplified moon phase: cycle is 29 days. Day D since new moon, what phase? 0-7=new, 8-14=first quarter, 15-21=full, 22-29=last quarter.
+
+## Input
+Day D since new moon.
+
+## Output
+Phase number: 0=new, 1=first quarter, 2=full, 3=last quarter.
+
+## Examples
+Input:
+5
+Output:
+0
+
+Input:
+10
+Output:
+1
+
+Input:
+17
+Output:
+2
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

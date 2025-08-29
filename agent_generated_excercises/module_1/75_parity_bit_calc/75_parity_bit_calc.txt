@@ -1,0 +1,32 @@
+# Title: Parity Bit Calc
+# Topic Tags: parity, bit
+
+## Task
+Calculate even parity bit for 7-bit number.
+
+## Input
+A number N (0 ≤ N ≤ 127).
+
+## Output
+Parity bit (0 or 1).
+
+## Examples
+Input:
+7
+Output:
+1
+
+Input:
+8
+Output:
+1
+
+Input:
+15
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

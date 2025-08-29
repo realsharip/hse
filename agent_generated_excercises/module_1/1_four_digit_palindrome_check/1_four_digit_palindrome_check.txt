@@ -1,0 +1,32 @@
+# Title: Four Digit Palindrome Check
+# Topic Tags: four, digit
+
+## Task
+Check if a four-digit number is palindromic. Output the sum of differences between symmetric digit pairs.
+
+## Input
+A four-digit integer N (0 ≤ N ≤ 9999, treat numbers with fewer digits as having leading zeros).
+
+## Output
+Sum of |first-fourth| + |second-third|. If palindromic, output 0.
+
+## Examples
+Input:
+1221
+Output:
+0
+
+Input:
+1234
+Output:
+5
+
+Input:
+56
+Output:
+11
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

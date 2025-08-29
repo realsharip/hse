@@ -1,0 +1,38 @@
+# Title: Arithmetic Sequence Nth
+# Topic Tags: arithmetic, sequence
+
+## Task
+Find Nth term of arithmetic sequence with first term A and difference D.
+
+## Input
+Three integers: A (first), D (difference), N (term number).
+
+## Output
+Nth term.
+
+## Examples
+Input:
+2
+3
+5
+Output:
+14
+
+Input:
+10
+-2
+4
+Output:
+4
+
+Input:
+1
+1
+100
+Output:
+100
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

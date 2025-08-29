@@ -1,0 +1,32 @@
+# Title: Keith Number Check
+# Topic Tags: keith, number
+
+## Task
+For 2-digit number, check if it appears in sequence: d1, d2, d1+d2, d2+(d1+d2)...
+
+## Input
+A two-digit number.
+
+## Output
+1 if Keith number, 0 otherwise.
+
+## Examples
+Input:
+14
+Output:
+1
+
+Input:
+19
+Output:
+1
+
+Input:
+20
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

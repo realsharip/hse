@@ -1,0 +1,32 @@
+# Title: Nth Pentagonal Number
+# Topic Tags: nth, pentagonal
+
+## Task
+Calculate the Nth pentagonal number: N(3N-1)/2. For N ≤ 10.
+
+## Input
+An integer N (1 ≤ N ≤ 10).
+
+## Output
+The Nth pentagonal number.
+
+## Examples
+Input:
+3
+Output:
+12
+
+Input:
+5
+Output:
+35
+
+Input:
+7
+Output:
+70
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

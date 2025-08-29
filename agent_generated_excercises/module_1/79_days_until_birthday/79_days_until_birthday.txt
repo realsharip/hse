@@ -1,0 +1,35 @@
+# Title: Days Until Birthday
+# Topic Tags: days, until
+
+## Task
+Today is day T of year. Birthday is day B. Days until birthday (with wraparound)?
+
+## Input
+Two integers: T (today), B (birthday), both 1-365.
+
+## Output
+Days until birthday.
+
+## Examples
+Input:
+100
+200
+Output:
+100
+
+Input:
+300
+100
+Output:
+165
+
+Input:
+100
+100
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

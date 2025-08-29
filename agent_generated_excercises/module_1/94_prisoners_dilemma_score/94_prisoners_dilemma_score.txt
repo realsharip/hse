@@ -1,0 +1,35 @@
+# Title: Prisoners Dilemma Score
+# Topic Tags: prisoners, dilemma
+
+## Task
+Two players, 3 rounds. Strategies: A (always cooperate=1), B (always defect=2), C (tit-for-tat=3). Score for player 1?
+
+## Input
+Two integers: strategy1, strategy2.
+
+## Output
+Total score for player 1.
+
+## Examples
+Input:
+1
+2
+Output:
+0
+
+Input:
+2
+1
+Output:
+15
+
+Input:
+3
+3
+Output:
+9
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

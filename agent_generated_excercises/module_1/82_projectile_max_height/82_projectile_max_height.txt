@@ -1,0 +1,32 @@
+# Title: Projectile Max Height
+# Topic Tags: projectile, max
+
+## Task
+Projectile launched up at V m/s. Max height? Use h = v²/(2g), g=10.
+
+## Input
+Initial velocity V.
+
+## Output
+Maximum height.
+
+## Examples
+Input:
+20
+Output:
+20
+
+Input:
+30
+Output:
+45
+
+Input:
+10
+Output:
+5
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

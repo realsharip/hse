@@ -1,0 +1,35 @@
+# Title: Sum Of Divisors Mod
+# Topic Tags: sum, of
+
+## Task
+Calculate sum of all divisors of N, then take modulo M. For N ≤ 20.
+
+## Input
+Two integers: N (1 ≤ N ≤ 20), M (modulus).
+
+## Output
+Sum of divisors of N, modulo M.
+
+## Examples
+Input:
+12
+10
+Output:
+8
+
+Input:
+10
+7
+Output:
+4
+
+Input:
+6
+5
+Output:
+2
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

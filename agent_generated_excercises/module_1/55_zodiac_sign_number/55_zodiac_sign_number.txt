@@ -1,0 +1,35 @@
+# Title: Zodiac Sign Number
+# Topic Tags: zodiac, sign
+
+## Task
+Given month M and day D, output zodiac sign number (1=Aries...12=Pisces).
+
+## Input
+Two integers: M (month), D (day).
+
+## Output
+Zodiac sign number.
+
+## Examples
+Input:
+3
+25
+Output:
+1
+
+Input:
+7
+15
+Output:
+4
+
+Input:
+12
+25
+Output:
+10
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

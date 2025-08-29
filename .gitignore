@@ -1,0 +1,26 @@
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Cursor IDE
+.cursor/rules/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

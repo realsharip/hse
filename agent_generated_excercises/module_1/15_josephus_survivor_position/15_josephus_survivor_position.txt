@@ -1,0 +1,32 @@
+# Title: Josephus Survivor Position
+# Topic Tags: josephus, survivor
+
+## Task
+N people in a circle, every 2nd person eliminated. What's the original position of the survivor?
+
+## Input
+An integer N (1 ≤ N ≤ 10).
+
+## Output
+Original position of survivor (1-indexed).
+
+## Examples
+Input:
+3
+Output:
+3
+
+Input:
+5
+Output:
+3
+
+Input:
+7
+Output:
+7
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,32 @@
+# Title: Partition Function Small
+# Topic Tags: partition, function
+
+## Task
+Number of ways to partition N into positive integers. For N ≤ 8.
+
+## Input
+Integer N.
+
+## Output
+Number of partitions.
+
+## Examples
+Input:
+4
+Output:
+5
+
+Input:
+5
+Output:
+7
+
+Input:
+6
+Output:
+11
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,41 @@
+# Title: Elevator Optimal Direction
+# Topic Tags: elevator, optimal
+
+## Task
+Elevator at floor F in building with N floors. Requests at floors A and B. Which to serve first for minimum total travel?
+
+## Input
+Four integers: N (total floors), F (current), A (request 1), B (request 2).
+
+## Output
+Floor to visit first (A or B as integer).
+
+## Examples
+Input:
+10
+5
+2
+8
+Output:
+8
+
+Input:
+20
+10
+15
+3
+Output:
+15
+
+Input:
+15
+8
+8
+12
+Output:
+8
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

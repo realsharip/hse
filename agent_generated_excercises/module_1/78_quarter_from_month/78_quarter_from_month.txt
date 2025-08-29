@@ -1,0 +1,32 @@
+# Title: Quarter From Month
+# Topic Tags: quarter, from
+
+## Task
+Given month number, output quarter (Q1-Q4).
+
+## Input
+Month M (1-12).
+
+## Output
+Quarter number.
+
+## Examples
+Input:
+3
+Output:
+1
+
+Input:
+7
+Output:
+3
+
+Input:
+12
+Output:
+4
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,32 @@
+# Title: Birthday Paradox Simplified
+# Topic Tags: birthday, paradox
+
+## Task
+In a group of N people, what's the minimum N where collision probability > 50%? Output N for room size R.
+
+## Input
+Room size R (≤ 365).
+
+## Output
+Minimum N for > 50% collision chance.
+
+## Examples
+Input:
+365
+Output:
+23
+
+Input:
+100
+Output:
+12
+
+Input:
+50
+Output:
+9
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,35 @@
+# Title: Semester Week Number
+# Topic Tags: semester, week
+
+## Task
+Semester starts on day S. Today is day T. Which week of semester (1-indexed)?
+
+## Input
+Two integers: S (start day), T (today).
+
+## Output
+Week number.
+
+## Examples
+Input:
+1
+8
+Output:
+2
+
+Input:
+50
+64
+Output:
+3
+
+Input:
+100
+106
+Output:
+1
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

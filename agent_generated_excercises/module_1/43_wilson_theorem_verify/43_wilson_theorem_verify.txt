@@ -1,0 +1,32 @@
+# Title: Wilson Theorem Verify
+# Topic Tags: wilson, theorem
+
+## Task
+For prime P, calculate (P-1)! mod P. For P ≤ 11.
+
+## Input
+A prime number P (P ≤ 11).
+
+## Output
+(P-1)! mod P.
+
+## Examples
+Input:
+5
+Output:
+4
+
+Input:
+7
+Output:
+6
+
+Input:
+11
+Output:
+10
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,32 @@
+# Title: Narcissistic Check
+# Topic Tags: narcissistic, check
+
+## Task
+Check if 3-digit number equals sum of cubes of its digits.
+
+## Input
+A three-digit number.
+
+## Output
+1 if narcissistic, 0 otherwise.
+
+## Examples
+Input:
+153
+Output:
+1
+
+Input:
+370
+Output:
+1
+
+Input:
+123
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

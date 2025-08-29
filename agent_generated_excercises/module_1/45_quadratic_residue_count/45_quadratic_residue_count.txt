@@ -1,0 +1,32 @@
+# Title: Quadratic Residue Count
+# Topic Tags: quadratic, residue
+
+## Task
+Count quadratic residues modulo P (numbers that are squares mod P). For prime P ≤ 11.
+
+## Input
+A prime P (≤ 11).
+
+## Output
+Count of quadratic residues mod P.
+
+## Examples
+Input:
+5
+Output:
+3
+
+Input:
+7
+Output:
+4
+
+Input:
+11
+Output:
+6
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

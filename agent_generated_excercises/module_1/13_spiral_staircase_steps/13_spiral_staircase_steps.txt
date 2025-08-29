@@ -1,0 +1,35 @@
+# Title: Spiral Staircase Steps
+# Topic Tags: spiral, staircase
+
+## Task
+A spiral staircase has N steps per full rotation. After climbing S steps, how many degrees have you rotated?
+
+## Input
+Two integers: N (steps per rotation), S (steps climbed).
+
+## Output
+Degrees rotated (integer).
+
+## Examples
+Input:
+10
+25
+Output:
+900
+
+Input:
+8
+12
+Output:
+540
+
+Input:
+12
+30
+Output:
+900
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

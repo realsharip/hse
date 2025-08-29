@@ -1,0 +1,41 @@
+# Title: Bulk Discount Threshold
+# Topic Tags: bulk, discount
+
+## Task
+Items cost P each. Buy N or more, get D% discount on total. How much for Q items?
+
+## Input
+Four integers: P (price), N (threshold), D (discount %), Q (quantity).
+
+## Output
+Total price after discount if applicable.
+
+## Examples
+Input:
+100
+5
+10
+7
+Output:
+630
+
+Input:
+50
+10
+20
+8
+Output:
+400
+
+Input:
+75
+3
+15
+3
+Output:
+191
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

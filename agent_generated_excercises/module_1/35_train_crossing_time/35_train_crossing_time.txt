@@ -1,0 +1,38 @@
+# Title: Train Crossing Time
+# Topic Tags: train, crossing
+
+## Task
+Train length L meters, speed S m/s. Bridge length B meters. Time for complete crossing?
+
+## Input
+Three integers: L (train length), S (speed), B (bridge length).
+
+## Output
+Time in seconds for train to completely cross bridge.
+
+## Examples
+Input:
+100
+10
+200
+Output:
+30
+
+Input:
+150
+5
+100
+Output:
+50
+
+Input:
+200
+20
+300
+Output:
+25
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

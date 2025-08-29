@@ -1,0 +1,38 @@
+# Title: Compound Interest Periods
+# Topic Tags: compound, interest
+
+## Task
+Principal P, rate R% per period. After N periods with compound interest, what's the final amount?
+
+## Input
+Three integers: P (principal), R (rate %), N (periods ≤ 3).
+
+## Output
+Final amount (rounded down).
+
+## Examples
+Input:
+1000
+10
+2
+Output:
+1210
+
+Input:
+500
+5
+3
+Output:
+578
+
+Input:
+2000
+15
+1
+Output:
+2300
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

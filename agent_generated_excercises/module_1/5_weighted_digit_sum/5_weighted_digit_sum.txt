@@ -1,0 +1,32 @@
+# Title: Weighted Digit Sum
+# Topic Tags: weighted, digit
+
+## Task
+Calculate weighted sum: 4×hundreds + 2×tens + 1×units for a three-digit number.
+
+## Input
+A three-digit integer N (100 ≤ N ≤ 999).
+
+## Output
+The weighted sum.
+
+## Examples
+Input:
+123
+Output:
+426
+
+Input:
+456
+Output:
+1622
+
+Input:
+789
+Output:
+2827
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

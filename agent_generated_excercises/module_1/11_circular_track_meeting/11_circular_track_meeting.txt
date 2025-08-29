@@ -1,0 +1,38 @@
+# Title: Circular Track Meeting
+# Topic Tags: circular, track
+
+## Task
+Two runners start at position 0 on a circular track of length L. Runner A speed is V1, Runner B speed is V2. When do they meet again at start?
+
+## Input
+Three integers: L (track length), V1 (speed 1), V2 (speed 2).
+
+## Output
+Time units until both are at position 0 again.
+
+## Examples
+Input:
+100
+7
+3
+Output:
+100
+
+Input:
+60
+4
+6
+Output:
+30
+
+Input:
+50
+5
+10
+Output:
+10
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,32 @@
+# Title: Monty Hall Switch Win
+# Topic Tags: monty, hall
+
+## Task
+Monty Hall: 3 doors, you pick door D. Host opens another door. Should switch? Output win % if switch.
+
+## Input
+Your door choice D (1-3).
+
+## Output
+Win percentage if you switch.
+
+## Examples
+Input:
+1
+Output:
+67
+
+Input:
+2
+Output:
+67
+
+Input:
+3
+Output:
+67
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,38 @@
+# Title: Currency Triple Exchange
+# Topic Tags: currency, triple
+
+## Task
+Convert A rubles through USD to EUR. 1 RUB = B/100 USD, 1 USD = C/100 EUR.
+
+## Input
+Three integers: A (rubles), B (RUB to USD rate ×100), C (USD to EUR rate ×100).
+
+## Output
+Amount in euro-cents (rounded down).
+
+## Examples
+Input:
+100
+150
+85
+Output:
+127
+
+Input:
+500
+200
+90
+Output:
+900
+
+Input:
+1000
+125
+110
+Output:
+1375
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,32 @@
+# Title: Triangular Number Check
+# Topic Tags: triangular, number
+
+## Task
+Check if N is a triangular number (sum of first k integers for some k). Output k or 0.
+
+## Input
+An integer N (1 ≤ N ≤ 100).
+
+## Output
+k if N is triangular (N = k(k+1)/2), otherwise 0.
+
+## Examples
+Input:
+10
+Output:
+4
+
+Input:
+15
+Output:
+5
+
+Input:
+20
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

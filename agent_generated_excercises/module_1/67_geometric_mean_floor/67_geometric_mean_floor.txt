@@ -1,0 +1,35 @@
+# Title: Geometric Mean Floor
+# Topic Tags: geometric, mean
+
+## Task
+Find floor of geometric mean of two numbers.
+
+## Input
+Two positive integers A and B.
+
+## Output
+Floor of sqrt(A×B).
+
+## Examples
+Input:
+4
+9
+Output:
+6
+
+Input:
+2
+8
+Output:
+4
+
+Input:
+16
+25
+Output:
+20
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

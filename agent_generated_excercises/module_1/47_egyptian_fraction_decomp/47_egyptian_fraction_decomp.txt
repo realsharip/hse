@@ -1,0 +1,32 @@
+# Title: Egyptian Fraction Decomp
+# Topic Tags: egyptian, fraction
+
+## Task
+Express 1/N as sum of two unit fractions: 1/N = 1/A + 1/B where A < B. Output A+B. For N ≤ 12.
+
+## Input
+An integer N (2 ≤ N ≤ 12).
+
+## Output
+Sum A+B for the decomposition.
+
+## Examples
+Input:
+6
+Output:
+7
+
+Input:
+10
+Output:
+15
+
+Input:
+12
+Output:
+16
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

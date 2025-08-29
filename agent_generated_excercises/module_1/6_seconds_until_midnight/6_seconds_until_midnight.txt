@@ -1,0 +1,38 @@
+# Title: Seconds Until Midnight
+# Topic Tags: seconds, until
+
+## Task
+Given hours, minutes, and seconds, calculate how many seconds remain until midnight.
+
+## Input
+Three integers: H (0-23), M (0-59), S (0-59).
+
+## Output
+Seconds until midnight (00:00:00).
+
+## Examples
+Input:
+23
+59
+50
+Output:
+10
+
+Input:
+12
+30
+45
+Output:
+41715
+
+Input:
+0
+0
+0
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

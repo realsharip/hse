@@ -1,0 +1,32 @@
+# Title: Harshad Number Check
+# Topic Tags: harshad, number
+
+## Task
+Check if number is divisible by sum of its digits.
+
+## Input
+A positive integer N ≤ 999.
+
+## Output
+1 if Harshad number, 0 otherwise.
+
+## Examples
+Input:
+12
+Output:
+1
+
+Input:
+18
+Output:
+1
+
+Input:
+19
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,35 @@
+# Title: Capacitor Charge Time
+# Topic Tags: capacitor, charge
+
+## Task
+Capacitor charges to 63% in RC seconds. Given R ohms and C farads, find time.
+
+## Input
+Two integers: R (ohms), C (microfarads).
+
+## Output
+Time in microseconds.
+
+## Examples
+Input:
+1000
+10
+Output:
+10000
+
+Input:
+500
+20
+Output:
+10000
+
+Input:
+2000
+5
+Output:
+10000
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

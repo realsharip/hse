@@ -1,0 +1,35 @@
+# Title: Binary Clock Segments
+# Topic Tags: binary, clock
+
+## Task
+Count lit segments in binary clock display for time H:M. Each digit shown in 4-bit binary.
+
+## Input
+Two integers: H (0-23), M (0-59).
+
+## Output
+Total number of lit segments (1s in binary).
+
+## Examples
+Input:
+15
+30
+Output:
+6
+
+Input:
+7
+59
+Output:
+10
+
+Input:
+0
+0
+Output:
+0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

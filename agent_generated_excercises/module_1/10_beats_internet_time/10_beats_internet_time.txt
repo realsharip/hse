@@ -1,0 +1,35 @@
+# Title: Beats Internet Time
+# Topic Tags: beats, internet
+
+## Task
+Convert time to Swatch Internet Time (.beats). One day = 1000 beats, starting at midnight UTC+1.
+
+## Input
+Two integers: H (hours UTC), M (minutes).
+
+## Output
+Internet time in beats (0-999).
+
+## Examples
+Input:
+0
+0
+Output:
+41
+
+Input:
+12
+0
+Output:
+541
+
+Input:
+23
+59
+Output:
+40
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

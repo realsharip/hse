@@ -1,0 +1,38 @@
+# Title: Ferris Wheel Position
+# Topic Tags: ferris, wheel
+
+## Task
+A ferris wheel has N cabins. You start in cabin 1. After K rotations of M cabins each, which cabin are you in?
+
+## Input
+Three integers: N (total cabins), K (rotations), M (cabins per rotation).
+
+## Output
+Final cabin number (1-indexed).
+
+## Examples
+Input:
+10
+3
+3
+Output:
+10
+
+Input:
+8
+5
+3
+Output:
+8
+
+Input:
+12
+7
+5
+Output:
+12
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

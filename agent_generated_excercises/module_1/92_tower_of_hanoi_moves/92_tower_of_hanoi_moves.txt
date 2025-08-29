@@ -1,0 +1,32 @@
+# Title: Tower Of Hanoi Moves
+# Topic Tags: tower, of
+
+## Task
+Minimum moves to solve Tower of Hanoi with N disks. For N ≤ 8.
+
+## Input
+Number of disks N.
+
+## Output
+Minimum moves.
+
+## Examples
+Input:
+3
+Output:
+7
+
+Input:
+4
+Output:
+15
+
+Input:
+5
+Output:
+31
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,38 @@
+# Title: Taxi Fare Calculator
+# Topic Tags: taxi, fare
+
+## Task
+Taxi charges: B rubles base fare, then P kopecks per 100 meters. Calculate fare for D meters.
+
+## Input
+Three integers: B (base fare in rubles), P (kopecks per 100m), D (distance in meters).
+
+## Output
+Total fare in rubles and kopecks.
+
+## Examples
+Input:
+50
+35
+1500
+Output:
+55 25
+
+Input:
+100
+40
+2500
+Output:
+110 0
+
+Input:
+75
+25
+800
+Output:
+77 0
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

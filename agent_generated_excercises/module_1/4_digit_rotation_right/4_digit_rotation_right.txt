@@ -1,0 +1,32 @@
+# Title: Digit Rotation Right
+# Topic Tags: digit, rotation
+
+## Task
+Rotate the digits of a three-digit number one position to the right (last becomes first).
+
+## Input
+A three-digit integer N (100 ≤ N ≤ 999).
+
+## Output
+The number with digits rotated right.
+
+## Examples
+Input:
+123
+Output:
+312
+
+Input:
+456
+Output:
+645
+
+Input:
+789
+Output:
+978
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

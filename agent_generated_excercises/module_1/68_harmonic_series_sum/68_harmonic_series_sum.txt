@@ -1,0 +1,32 @@
+# Title: Harmonic Series Sum
+# Topic Tags: harmonic, series
+
+## Task
+Calculate 1/1 + 1/2 + ... + 1/N as fraction, output numerator mod 1000.
+
+## Input
+Integer N (1 ≤ N ≤ 6).
+
+## Output
+Numerator of sum mod 1000.
+
+## Examples
+Input:
+3
+Output:
+11
+
+Input:
+4
+Output:
+25
+
+Input:
+5
+Output:
+137
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.

@@ -1,0 +1,35 @@
+# Title: Fermat Little Power
+# Topic Tags: fermat, little
+
+## Task
+Calculate A^(P-1) mod P for prime P. Use for primality hint.
+
+## Input
+Two integers: A (base), P (prime ≤ 11).
+
+## Output
+A^(P-1) mod P.
+
+## Examples
+Input:
+2
+5
+Output:
+1
+
+Input:
+3
+7
+Output:
+1
+
+Input:
+4
+11
+Output:
+1
+
+## Constraints
+- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
+- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
