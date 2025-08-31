@@ -1,4 +1,4 @@
-# Exercise 6: Seconds Until Midnight
+# Упражнение 6: Seconds Until Midnight
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-seconds%2C%20until-blue)
@@ -6,94 +6,94 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
-Given hours, minutes, and seconds, calculate how many seconds remain until midnight.
-## 📥 Input Format
+Дано часы, минуты и секунды, вычислите сколько секунд осталось до полуночи.
+## 📥 Формат ввода
 
-Three integers: H (0-23), M (0-59), S (0-59).
-## 📤 Output Format
+Три целых числа: H (0-23), M (0-59), S (0-59).
+## 📤 Формат вывода
 
-Seconds until midnight (00:00:00).
-## 💡 Examples
+Секунд до полуночи (00:00:00).
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 23
 59
 50
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 10
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 12
 30
 45
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 41715
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 0
 0
 0
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 0
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
 
 ---
 
-## 🎯 Solution Approach
+## 🎯 Подход к решению
 
-This exercise focuses on **seconds, until** concepts from Module 1. Remember to use only:
+Это упражнение сосредоточено на **seconds, until** концепциях из Модуля 1. Помните, что можно использовать только:
 
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
 
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
 
 ---
 
-## 📁 File Structure
+## 📁 Структура файлов
 ```
 6_seconds_until_midnight/
-├── 6_seconds_until_midnight.md     # This description file
-└── 6_seconds_until_midnight.py     # Your solution file
+├── 6_seconds_until_midnight.md     # Этот файл с описанием
+└── 6_seconds_until_midnight.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](5_previous) 
-- [Next Exercise →](7_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](5_previous) 
+- [Next Упражнение →](7_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

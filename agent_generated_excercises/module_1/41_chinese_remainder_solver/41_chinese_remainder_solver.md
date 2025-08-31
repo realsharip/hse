@@ -1,4 +1,4 @@
-# Exercise 41: Chinese Remainder Solver
+# Упражнение 41: Chinese Remainder Solver
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-chinese%2C%20remainder-blue)
@@ -6,91 +6,91 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
-Find X where X ≡ A (mod 3) and X ≡ B (mod 5), with 0 ≤ X < 15.
-## 📥 Input Format
+Найдите X, где X ≡ A (mod 3) и X ≡ B (mod 5), with 0 ≤ X < 15.
+## 📥 Формат ввода
 
-Two integers: A (0-2), B (0-4).
-## 📤 Output Format
+Два целых числа: A (0-2), B (0-4).
+## 📤 Формат вывода
 
 Solution X.
-## 💡 Examples
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 1
 2
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 7
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 2
 3
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 8
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 0
 0
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 0
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
 
 ---
 
-## 🎯 Solution Approach
+## 🎯 Подход к решению
 
-This exercise focuses on **chinese, remainder** concepts from Module 1. Remember to use only:
+Это упражнение сосредоточено на **chinese, remainder** концепциях из Модуля 1. Помните, что можно использовать только:
 
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
 
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
 
 ---
 
-## 📁 File Structure
+## 📁 Структура файлов
 ```
 41_chinese_remainder_solver/
-├── 41_chinese_remainder_solver.md     # This description file
-└── 41_chinese_remainder_solver.py     # Your solution file
+├── 41_chinese_remainder_solver.md     # Этот файл с описанием
+└── 41_chinese_remainder_solver.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](40_previous) 
-- [Next Exercise →](42_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](40_previous) 
+- [Next Упражнение →](42_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

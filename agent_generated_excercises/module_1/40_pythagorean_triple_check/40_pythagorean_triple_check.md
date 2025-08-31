@@ -1,4 +1,4 @@
-# Exercise 40: Pythagorean Triple Check
+# Упражнение 40: Pythagorean Triple Check
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-pythagorean%2C%20triple-blue)
@@ -6,94 +6,94 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
-Check if three numbers form a Pythagorean triple (a²+b²=c²). Output 1 if yes, 0 if no.
-## 📥 Input Format
+Проверьте, образуют ли три числа пифагорову тройку (a²+b²=c²). Output 1 if yes, 0 if no.
+## 📥 Формат ввода
 
-Three integers: a, b, c.
-## 📤 Output Format
+Три целых числа: a, b, c.
+## 📤 Формат вывода
 
 1 if Pythagorean triple, 0 otherwise.
-## 💡 Examples
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 3
 4
 5
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 1
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 5
 12
 13
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 1
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 8
 15
 16
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 0
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
-
----
-
-## 🎯 Solution Approach
-
-This exercise focuses on **pythagorean, triple** concepts from Module 1. Remember to use only:
-
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
-
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
 
 ---
 
-## 📁 File Structure
+## 🎯 Подход к решению
+
+Это упражнение сосредоточено на **pythagorean, triple** концепциях из Модуля 1. Помните, что можно использовать только:
+
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
+
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
+
+---
+
+## 📁 Структура файлов
 ```
 40_pythagorean_triple_check/
-├── 40_pythagorean_triple_check.md     # This description file
-└── 40_pythagorean_triple_check.py     # Your solution file
+├── 40_pythagorean_triple_check.md     # Этот файл с описанием
+└── 40_pythagorean_triple_check.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](39_previous) 
-- [Next Exercise →](41_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](39_previous) 
+- [Next Упражнение →](41_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

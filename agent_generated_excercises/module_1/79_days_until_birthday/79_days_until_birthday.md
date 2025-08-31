@@ -1,4 +1,4 @@
-# Exercise 79: Days Until Birthday
+# Упражнение 79: Days Until Birthday
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-days%2C%20until-blue)
@@ -6,91 +6,91 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
 Today is day T of year. Birthday is day B. Days until birthday (with wraparound)?
-## 📥 Input Format
+## 📥 Формат ввода
 
-Two integers: T (today), B (birthday), both 1-365.
-## 📤 Output Format
+Два целых числа: T (today), B (birthday), both 1-365.
+## 📤 Формат вывода
 
 Days until birthday.
-## 💡 Examples
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 100
 200
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 100
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 300
 100
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 165
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 100
 100
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 0
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
-
----
-
-## 🎯 Solution Approach
-
-This exercise focuses on **days, until** concepts from Module 1. Remember to use only:
-
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
-
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
 
 ---
 
-## 📁 File Structure
+## 🎯 Подход к решению
+
+Это упражнение сосредоточено на **days, until** концепциях из Модуля 1. Помните, что можно использовать только:
+
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
+
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
+
+---
+
+## 📁 Структура файлов
 ```
 79_days_until_birthday/
-├── 79_days_until_birthday.md     # This description file
-└── 79_days_until_birthday.py     # Your solution file
+├── 79_days_until_birthday.md     # Этот файл с описанием
+└── 79_days_until_birthday.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](78_previous) 
-- [Next Exercise →](80_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](78_previous) 
+- [Next Упражнение →](80_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

@@ -1,4 +1,4 @@
-# Exercise 31: Elevator Optimal Direction
+# Упражнение 31: Elevator Optimal Direction
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-elevator%2C%20optimal-blue)
@@ -6,20 +6,20 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
 Elevator at floor F in building with N floors. Requests at floors A and B. Which to serve first for minimum total travel?
-## 📥 Input Format
+## 📥 Формат ввода
 
-Four integers: N (total floors), F (current), A (request 1), B (request 2).
-## 📤 Output Format
+Четыре целых числа: N (total floors), F (current), A (request 1), B (request 2).
+## 📤 Формат вывода
 
 Floor to visit first (A or B as integer).
-## 💡 Examples
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 10
 5
@@ -27,12 +27,12 @@ Floor to visit first (A or B as integer).
 8
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 8
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 20
 10
@@ -40,12 +40,12 @@ Floor to visit first (A or B as integer).
 3
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 15
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 15
 8
@@ -53,50 +53,50 @@ Floor to visit first (A or B as integer).
 12
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 8
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
-
----
-
-## 🎯 Solution Approach
-
-This exercise focuses on **elevator, optimal** concepts from Module 1. Remember to use only:
-
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
-
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
 
 ---
 
-## 📁 File Structure
+## 🎯 Подход к решению
+
+Это упражнение сосредоточено на **elevator, optimal** концепциях из Модуля 1. Помните, что можно использовать только:
+
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
+
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
+
+---
+
+## 📁 Структура файлов
 ```
 31_elevator_optimal_direction/
-├── 31_elevator_optimal_direction.md     # This description file
-└── 31_elevator_optimal_direction.py     # Your solution file
+├── 31_elevator_optimal_direction.md     # Этот файл с описанием
+└── 31_elevator_optimal_direction.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](30_previous) 
-- [Next Exercise →](32_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](30_previous) 
+- [Next Упражнение →](32_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

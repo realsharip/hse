@@ -1,4 +1,4 @@
-# Exercise 47: Egyptian Fraction Decomp
+# Упражнение 47: Egyptian Fraction Decomp
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-egyptian%2C%20fraction-blue)
@@ -6,88 +6,88 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
-Express 1/N as sum of two unit fractions: 1/N = 1/A + 1/B where A < B. Output A+B. For N ≤ 12.
-## 📥 Input Format
+Выразите 1/N как сумму двух единичных дробей: 1/N = 1/A + 1/B where A < B. Output A+B. For N ≤ 12.
+## 📥 Формат ввода
 
-An integer N (2 ≤ N ≤ 12).
-## 📤 Output Format
+Целое число N (2 ≤ N ≤ 12).
+## 📤 Формат вывода
 
 Sum A+B for the decomposition.
-## 💡 Examples
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 6
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 7
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 10
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 15
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 12
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 16
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
-
----
-
-## 🎯 Solution Approach
-
-This exercise focuses on **egyptian, fraction** concepts from Module 1. Remember to use only:
-
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
-
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
 
 ---
 
-## 📁 File Structure
+## 🎯 Подход к решению
+
+Это упражнение сосредоточено на **egyptian, fraction** концепциях из Модуля 1. Помните, что можно использовать только:
+
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
+
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
+
+---
+
+## 📁 Структура файлов
 ```
 47_egyptian_fraction_decomp/
-├── 47_egyptian_fraction_decomp.md     # This description file
-└── 47_egyptian_fraction_decomp.py     # Your solution file
+├── 47_egyptian_fraction_decomp.md     # Этот файл с описанием
+└── 47_egyptian_fraction_decomp.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](46_previous) 
-- [Next Exercise →](48_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](46_previous) 
+- [Next Упражнение →](48_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

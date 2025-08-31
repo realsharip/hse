@@ -1,4 +1,4 @@
-# Exercise 7: Clock Mirror Time
+# Упражнение 7: Clock Mirror Time
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-clock%2C%20mirror-blue)
@@ -6,91 +6,91 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
-Find the mirror time of a clock reading (mirror across 6:00-12:00 axis). For H:M, mirror is (12-H):(60-M) adjusted for valid time.
-## 📥 Input Format
+Найдите зеркальное время часов (mirror across 6:00-12:00 axis). For H:M, mirror is (12-H):(60-M) adjusted for valid time.
+## 📥 Формат ввода
 
-Two integers: H (1-12), M (0-59).
-## 📤 Output Format
+Два целых числа: H (1-12), M (0-59).
+## 📤 Формат вывода
 
-Mirror time as two integers: hours and minutes.
-## 💡 Examples
+Зеркальное время как два числа: часы и минуты.
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 3
 15
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 8 45
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 6
 0
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 6 0
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 12
 30
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 11 30
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
-
----
-
-## 🎯 Solution Approach
-
-This exercise focuses on **clock, mirror** concepts from Module 1. Remember to use only:
-
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
-
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
 
 ---
 
-## 📁 File Structure
+## 🎯 Подход к решению
+
+Это упражнение сосредоточено на **clock, mirror** концепциях из Модуля 1. Помните, что можно использовать только:
+
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
+
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
+
+---
+
+## 📁 Структура файлов
 ```
 7_clock_mirror_time/
-├── 7_clock_mirror_time.md     # This description file
-└── 7_clock_mirror_time.py     # Your solution file
+├── 7_clock_mirror_time.md     # Этот файл с описанием
+└── 7_clock_mirror_time.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](6_previous) 
-- [Next Exercise →](8_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](6_previous) 
+- [Next Упражнение →](8_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*

@@ -1,4 +1,4 @@
-# Exercise 81: Free Fall Distance
+# Упражнение 81: Free Fall Distance
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Module%201-green)
 ![Topics](https://img.shields.io/badge/Topics-free%2C%20fall-blue)
@@ -6,88 +6,88 @@
 
 ---
 
-## 📋 Task Description
+## 📋 Описание задачи
 
 Object falls for T seconds. Distance fallen? Use g=10 m/s², d = gt²/2.
-## 📥 Input Format
+## 📥 Формат ввода
 
 Time T in seconds.
-## 📤 Output Format
+## 📤 Формат вывода
 
 Distance in meters.
-## 💡 Examples
+## 💡 Примеры
 
-### Example 1
+### Пример 1
 
-**Input:**
+**Входные данные:**
 ```
 2
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 20
-### Example 2
+### Пример 2
 
-**Input:**
+**Входные данные:**
 ```
 3
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 45
-### Example 3
+### Пример 3
 
-**Input:**
+**Входные данные:**
 ```
 4
 ```
 
-**Output:**
+**Выходные данные:**
 ```
 80
-## ⚠️ Constraints
+## ⚠️ Ограничения
 
-- Use only Module_1 concepts: arithmetic operations, modulo, integer division, digit extraction.
-- No loops, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
-- Prefer integer math (`//`, `%`) and arithmetic identities over any form of branching.
+- Используйте только концепции Модуля_1: арифметические операции, остаток от деления, целочисленное деление, извлечение цифр.
+- Никаких циклов, no conditionals, no lists/tuples/dicts/sets, no user-defined functions.
+- Предпочитайте целочисленную математику (`//`, `%`) and арифметические тождества вместо любых форм ветвления.
 
-
----
-
-## 🎯 Solution Approach
-
-This exercise focuses on **free, fall** concepts from Module 1. Remember to use only:
-
-- ✅ Basic arithmetic operations (`+`, `-`, `*`, `//`, `%`, `**`)
-- ✅ Input/output functions (`input()`, `print()`, `int()`, `str()`)
-- ✅ String operations (concatenation, repetition, slicing)
-- ✅ Mathematical reasoning and arithmetic identities
-
-- ❌ **No loops** (`for`, `while`)
-- ❌ **No conditionals** (`if`, `elif`, `else`)
-- ❌ **No collections** (lists, tuples, dictionaries, sets)
-- ❌ **No user-defined functions**
 
 ---
 
-## 📁 File Structure
+## 🎯 Подход к решению
+
+Это упражнение сосредоточено на **free, fall** концепциях из Модуля 1. Помните, что можно использовать только:
+
+- ✅ Basic арифметические операции (`+`, `-`, `*`, `//`, `%`, `**`)
+- ✅ Функции ввода/вывода (`input()`, `print()`, `int()`, `str()`)
+- ✅ Строковые операции (конкатенация, повторение, срезы)
+- ✅ Mathematical reasoning and арифметические тождества
+
+- ❌ **Никаких циклов** (`for`, `while`)
+- ❌ **Никаких условий** (`if`, `elif`, `else`)
+- ❌ **Никаких коллекций** (lists, tuples, dictionaries, sets)
+- ❌ **Никаких пользовательских функций**
+
+---
+
+## 📁 Структура файлов
 ```
 81_free_fall_distance/
-├── 81_free_fall_distance.md     # This description file
-└── 81_free_fall_distance.py     # Your solution file
+├── 81_free_fall_distance.md     # Этот файл с описанием
+└── 81_free_fall_distance.py     # Ваш файл с решением
 ```
 
 ---
 
-## 🔗 Navigation
+## 🔗 Навигация
 
-- [← Previous Exercise](80_previous) 
-- [Next Exercise →](82_next)
-- [📚 Back to Module 1](../../Module_1/)
-- [🏠 Back to Course Root](../../)
+- [← Previous Упражнение](80_previous) 
+- [Next Упражнение →](82_next)
+- [📚 Назад к Модулю 1](../../Module_1/)
+- [🏠 Назад к корню курса](../../)
 
 ---
 
-*Generated for Module 1 practice. Part of Python-HSE coursework.*
+*Сгенерировано для практики Модуля 1. Часть курса Python-HSE.*
