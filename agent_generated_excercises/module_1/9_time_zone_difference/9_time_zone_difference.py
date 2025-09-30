@@ -1,7 +1,10 @@
-"""
-Time Zone Difference
-Generated for Module_1 practice. Solve using only Module_1 concepts.
-Do not add loops/conditionals/collections/functions.
-"""
+h = int(input())
+m = int(input())
+diff = int(input())
 
-# write your solution here
+hm_total = (h * 60 + m)
+diff_m = diff * 60
+
+hrs = ((hm_total + diff_m) // 60) % 24
+mins = ((hm_total + diff_m) % 60)
+print(hrs, mins)

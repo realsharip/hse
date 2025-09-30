@@ -1,7 +1,6 @@
-"""
-Weighted Digit Sum
-Generated for Module_1 practice. Solve using only Module_1 concepts.
-Do not add loops/conditionals/collections/functions.
-"""
+n = int(input())
+fd = n // 100
+sd = n // 10 % 10
+ld = n % 10
 
-# write your solution here
+print(4 * fd + 2 * sd + ld)

@@ -1,7 +1,6 @@
-"""
-Seconds Until Midnight
-Generated for Module_1 practice. Solve using only Module_1 concepts.
-Do not add loops/conditionals/collections/functions.
-"""
+h = int(input())
+m = int(input())
+s = int(input())
 
-# write your solution here
+s_till_midnight = (24 * 3600 - (h % 24 * 3600 + m % 60 * 60 + s % 60))
+print(s_till_midnight)

@@ -1,7 +1,7 @@
-"""
-Four Digit Palindrome Check
-Generated for Module_1 practice. Solve using only Module_1 concepts.
-Do not add loops/conditionals/collections/functions.
-"""
+n = int(input())
 
-# write your solution here
+fd = n // 1000
+sd = n // 100 % 10
+td = n // 10 % 10
+ld = n % 10
+print((fd - ld) ** 2 + (sd - td) ** 2)

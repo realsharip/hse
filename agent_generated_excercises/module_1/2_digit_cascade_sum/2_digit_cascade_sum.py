@@ -1,7 +1,7 @@
-"""
-Digit Cascade Sum
-Generated for Module_1 practice. Solve using only Module_1 concepts.
-Do not add loops/conditionals/collections/functions.
-"""
+n = int(input())
 
-# write your solution here
+fd = n // 100
+sd = n // 10 % 10
+td = n % 10
+
+print(fd + (fd +sd) + (fd + sd + td))
